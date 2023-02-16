@@ -21,7 +21,7 @@ public class CalcActivity extends AppCompatActivity {
 
         tvHistory = findViewById(R.id.tvHistory);
         tvResult = findViewById(R.id.tvResult);
-        minusSign = getString(R.string.calc_minus_sign);
+        minusSign = getString(R.string.btn_calc_minus);
         tvHistory.setText("");
         tvResult.setText("0");
         for (int i = 0; i < 10; i++) {
